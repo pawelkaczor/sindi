@@ -1,6 +1,6 @@
 name := "sindi"
 
-version := "0.2-SNAPSHOT"
+version := "0.2"
 
 organization := "org.scala-tools.sindi"
 
@@ -27,6 +27,6 @@ resolvers += "Scala-Tools Maven2 Releases Repository" at "http://scala-tools.org
 resolvers += "Scala-Tools Maven2 Snapshots Repository" at "http://scala-tools.org/repo-snapshots"
 
 
-publishTo := Some("Scala Tools Nexus" at "http://nexus.scala-tools.org/content/repositories/snapshots/")
+publishTo := Some("Scala Tools Nexus" at "http://nexus.scala-tools.org/content/repositories/releases/")
 
 credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
